@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<ContainerSignatureMapping schemaVersion="1.0" signatureVersion="1"> 
+    <ContainerSignatures>
+
+        <ContainerSignature Id="1000" ContainerType="OLE2">
+            <Description>Microsoft Word 97 OLE2 Template</Description>
+            <Files>
+                <File>
+                    <Path>WordDocument</Path>
+                </File>
+                <File>
+                    <Path>CompObj</Path>
+                    <BinarySignatures>
+                        <InternalSignatureCollection>                    
+	                        <InternalSignature ID="300">
+	                            <ByteSequence Reference="BOFoffset">
+	                                <SubSequence Position="1" SubSeqMinOffset="40" SubSeqMaxOffset="1024">
+	                                    <Sequence>10 00 00 00 'Word.Document.8' 00</Sequence>
+	                                </SubSequence>
+	                            </ByteSequence>
+	                        </InternalSignature>
+	                    </InternalSignatureCollection>
+                    </BinarySignatures>
+                </File>
+                
+                <File>
+                    <Path>WordDocument</Path>
+                    <BinarySignatures>
+                        <InternalSignatureCollection>                    
+	                        <InternalSignature ID="300">
+	                            <ByteSequence Reference="BOFoffset">
+	                                <SubSequence Position="1" SubSeqMinOffset="10" SubSeqMaxOffset="10">
+	                                    <Sequence>[&amp;01]</Sequence>
+	                                </SubSequence>
+	                            </ByteSequence>
+	                        </InternalSignature>
+	                    </InternalSignatureCollection>
+                    </BinarySignatures>
+                </File>
+                
+            </Files>
+        </ContainerSignature> 
+
+        <ContainerSignature Id="1010" ContainerType="OLE2">
+            <Description>Microsoft Word 97 OLE2</Description>
+            <Files>
+                <File>
+                    <Path>WordDocument</Path>
+                </File>
+                <File>
+                    <Path>CompObj</Path>
+                    <BinarySignatures>
+                        <InternalSignatureCollection>                    
+	                        <InternalSignature ID="300">
+	                            <ByteSequence Reference="BOFoffset">
+	                                <SubSequence Position="1" SubSeqMinOffset="40" SubSeqMaxOffset="1024">
+	                                    <Sequence>10 00 00 00 'Word.Document.8' 00</Sequence>
+	                                </SubSequence>
+	                            </ByteSequence>
+	                        </InternalSignature>
+	                    </InternalSignatureCollection>
+                    </BinarySignatures>
+                </File>
+                
+                <File>
+                    <Path>WordDocument</Path>
+                    <BinarySignatures>
+                        <InternalSignatureCollection>                    
+	                        <InternalSignature ID="300">
+	                            <ByteSequence Reference="BOFoffset">
+	                                <SubSequence Position="1" SubSeqMinOffset="10" SubSeqMaxOffset="10">
+	                                    <Sequence>[!&amp;01]</Sequence>
+	                                </SubSequence>
+	                            </ByteSequence>
+	                        </InternalSignature>
+	                    </InternalSignatureCollection>
+                    </BinarySignatures>
+                </File>
+                
+            </Files>
+        </ContainerSignature> 
+
+
+    </ContainerSignatures>
+  
+    <FileFormatMappings>
+    
+    	<!--  Thumbs.db (OLE2)-->
+        <FileFormatMapping signatureId="1000" Puid="dev-x-fmt/45"/>
+        <FileFormatMapping signatureId="1010" Puid="dev-fmt/40"/>
+    </FileFormatMappings>
+  
+    <TriggerPuids>
+        <TriggerPuid ContainerType="OLE2" Puid="fmt/111"/> 
+        <TriggerPuid ContainerType="ZIP" Puid="fmt/189"/> 
+        <TriggerPuid ContainerType="ZIP" Puid="x-fmt/263"/> 
+    </TriggerPuids>
+
+</ContainerSignatureMapping>
