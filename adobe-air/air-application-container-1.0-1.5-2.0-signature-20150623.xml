@@ -110,9 +110,9 @@
     <FileFormatMappings>
     
     	<!--  Thumbs.db (OLE2)-->
-        <FileFormatMapping signatureId="1000" Puid="dev/1"/>
-        <FileFormatMapping signatureId="2000" Puid="dev/2"/>
-        <FileFormatMapping signatureId="3000" Puid="dev/3"/>
+        <FileFormatMapping signatureId="1000" Puid="archives-nz-dev-signature/1"/>
+        <FileFormatMapping signatureId="2000" Puid="archives-nz-dev-signature/2"/>
+        <FileFormatMapping signatureId="3000" Puid="archives-nz-dev-signature/3"/>
     </FileFormatMappings>
   
     <TriggerPuids>

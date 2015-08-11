@@ -28,13 +28,13 @@
         </InternalSignature>
 </InternalSignatureCollection>
 <FileFormatCollection>
-  <FileFormat ID="1" Name="adobe.air" PUID="dev/1" Version="1.0" MIMEType="application/vnd.adobe.air-application-installer-package+zip">
+  <FileFormat ID="1" Name="adobe.air" PUID="archives-nz-dev-signature/1" Version="1.0" MIMEType="application/vnd.adobe.air-application-installer-package+zip">
     <Extension>air</Extension>
   </FileFormat>
-  <FileFormat ID="2" Name="adobe.air" PUID="dev/2" Version="1.5" MIMEType="application/vnd.adobe.air-application-installer-package+zip">
+  <FileFormat ID="2" Name="adobe.air" PUID="archives-nz-dev-signature/2" Version="1.5" MIMEType="application/vnd.adobe.air-application-installer-package+zip">
     <Extension>air</Extension>
   </FileFormat>
-  <FileFormat ID="3" Name="adobe.air" PUID="dev/3" Version="2.0" MIMEType="application/vnd.adobe.air-application-installer-package+zip">
+  <FileFormat ID="3" Name="adobe.air" PUID="archives-nz-dev-signature/3" Version="2.0" MIMEType="application/vnd.adobe.air-application-installer-package+zip">
     <Extension>air</Extension>
   </FileFormat>
   <FileFormat ID="382" MIMEType="application/zip" Name="ZIP Format" PUID="x-fmt/263">
