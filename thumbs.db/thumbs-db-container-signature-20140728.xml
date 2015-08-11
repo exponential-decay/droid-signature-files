@@ -13,7 +13,7 @@
 	                        <InternalSignature ID="300">
 	                            <ByteSequence Reference="BOFoffset">
 	                                <SubSequence Position="1" SubSeqMinOffset="0" SubSeqMaxOffset="0">
-	                                    <Sequence>10 00 07 00 [00:FF] 00	00 00 60 00 00 00 60 00 00 00 [00:FF] 00 00 00 01 00 00 00</Sequence>
+	                                    <Sequence>10 00 07 00 [00:FF] 00 00 00 60 00 00 00 60 00 00 00 [00:FF] 00 00 00 01 00 00 00</Sequence>
 	                                </SubSequence>
 	                            </ByteSequence>
 	                        </InternalSignature>
