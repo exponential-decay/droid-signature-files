@@ -1,6 +1,6 @@
 # Sample File for Open Preserve Blog on Container Identification
 
-The container created is a zip file, containing two folders and two files. 
+The container created is a zip file. Within that two folders and two files. 
 
 The structure is as follows:
 
