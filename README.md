@@ -2,7 +2,7 @@
 ---
 Listing custom DROID signature files created by exponential-decay
 
-**Blog**: http://openpreservation.org/?p=2644 
+**Blog**: http://openpreservation.org/blog/2015/08/11/proposal-github-to-enable-a-federated-approach-to-distributing-and-utilising-custom-droid-signatures/
 
 ### Open questions:
 
