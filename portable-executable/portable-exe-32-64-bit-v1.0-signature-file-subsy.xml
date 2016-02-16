@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FFSignatureFile xmlns="http://www.nationalarchives.gov.uk/pronom/SignatureFile" Version="1" DateCreated="2016-02-16T03:15:29+00:00">
+  <InternalSignatureCollection>
+  <InternalSignature ID="1" Specificity="Specific">
+  <ByteSequence Reference="BOFoffset">
+    <SubSequence MinFragLength="0" Position="1" SubSeqMaxOffset="0" SubSeqMinOffset="0">
+      <Sequence>4D5A</Sequence>
+      <DefaultShift>3</DefaultShift>
+      <Shift Byte="4D">2</Shift>
+      <Shift Byte="5A">1</Shift>
+    </SubSequence>
+    <SubSequence MinFragLength="0" Position="2" SubSeqMinOffset="126" SubSeqMaxOffset="128500">
+      <Sequence>50450000</Sequence>
+      <DefaultShift>5</DefaultShift>
+      <Shift Byte="50">4</Shift>
+      <Shift Byte="45">3</Shift>
+      <Shift Byte="00">1</Shift>
+      <RightFragment MaxOffset="20" MinOffset="20" Position="1">0B02</RightFragment>
+      <RightFragment MaxOffset="66" MinOffset="66" Position="2">[0000:1000]</RightFragment>
+    </SubSequence>
+  </ByteSequence>
+</InternalSignature>
+  <InternalSignature ID="2" Specificity="Specific">
+  <ByteSequence Reference="BOFoffset">
+    <SubSequence MinFragLength="0" Position="1" SubSeqMaxOffset="0" SubSeqMinOffset="0">
+      <Sequence>4D5A</Sequence>
+      <DefaultShift>3</DefaultShift>
+      <Shift Byte="4D">2</Shift>
+      <Shift Byte="5A">1</Shift>
+    </SubSequence>
+    <SubSequence MinFragLength="0" Position="2" SubSeqMinOffset="126" SubSeqMaxOffset="128500">
+      <Sequence>50450000</Sequence>
+      <DefaultShift>5</DefaultShift>
+      <Shift Byte="50">4</Shift>
+      <Shift Byte="45">3</Shift>
+      <Shift Byte="00">1</Shift>
+      <RightFragment MaxOffset="20" MinOffset="20" Position="1">0B01</RightFragment>
+      <RightFragment MaxOffset="66" MinOffset="66" Position="2">[0000:1000]</RightFragment>
+    </SubSequence>
+  </ByteSequence>
+</InternalSignature>
+</InternalSignatureCollection>
+<FileFormatCollection>
+  <FileFormat ID="1" Name="portable-exe-64-bit" PUID="exp/1" Version="" MIMEType="application/octet-stream">
+    <InternalSignatureID>1</InternalSignatureID>
+    <Extension>exe</Extension>
+  </FileFormat>
+    <FileFormat ID="2" Name="portable-exe-32-bit" PUID="exp/2" Version="" MIMEType="application/octet-stream">
+    <InternalSignatureID>2</InternalSignatureID>
+    <Extension>exe</Extension>
+  </FileFormat>
+</FileFormatCollection></FFSignatureFile>
