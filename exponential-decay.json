@@ -2,6 +2,7 @@
   "edfmts": [
     "air-application-1.0-1.5-2.0-signature-file.xml",
     "dot-and-doc-template-97-2003-signature-file.xml",
+    "NEF-format-signatures.xml",
     "Thumbs.db-v2.0-signature-file.xml"
   ],
   "edconts": [
